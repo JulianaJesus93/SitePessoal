@@ -1,0 +1,493 @@
+/*básicos*/
+* {
+    margin: 0px;
+    font-family: 'Raleway';
+    color: rgb(255, 255, 255);
+}
+
+html, body {
+    height: 100%;
+}
+
+#tudo {
+    min-height: 100%;
+    position: relative;
+    display: block;
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 100, 0));
+}
+
+#container {
+    display: block;
+}
+
+
+/*index*/
+#index {
+    background-image: url(../Imgs/header_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+.blocoindex {
+    padding: 0 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textoindex {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-shadow: rgb(0, 0, 0) 0 0 15px;
+}
+
+.balaoindex {
+    background-color: rgb(0, 130, 0);
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 0 30px;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    opacity: 90%;
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+    transition: 0.2s;
+}
+
+.balaoindex:hover {
+    scale: 1.1;
+}
+
+
+/*cabeçalho fixo*/
+header {
+    background-image: url("../Imgs/header_longa.jpg");
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+h1 a {
+    color: rgb(100, 255, 100);
+    text-shadow: rgb(0, 0, 0) 0 0 15px;
+    font-family: 'Merienda';
+    text-decoration: none;
+    font-size: 7vw;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+h1 a:hover {
+    text-shadow: rgb(85, 85, 85) 0 0 10px;
+}
+
+
+/*menu*/
+nav {
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(0, 160, 0);
+    border-radius: 0 20px;
+    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.556);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px;
+}
+
+#menu ul {
+    padding: 15px;
+}
+
+#menu ul li {
+    list-style-type: none;
+    padding: 10px;
+    text-align: right;
+    font-family: 'Merienda';
+    font-size: 15px;
+    color: rgb(0, 50, 0);
+}
+
+#menu a {
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Merienda';
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-shadow: rgb(0, 0, 0) 0 0 5px;
+}
+
+#menu a:active {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0 0 5px;
+}
+
+
+/*conteúdo*/
+div {
+    display: flex;
+}
+
+#conteudo {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Merienda';
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    line-height: 1.8;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Merienda';
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    font-family: 'Raleway';
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Raleway';
+}
+
+p {
+    justify-content: space-around;
+    text-align: center;
+}
+
+#especifico {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+#especifico p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.blocos {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.texto h4 {
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+.balao {
+    background-color: rgb(0, 130, 0);
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 0 30px;
+    flex-direction: column;
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+    align-items: center;
+}
+
+.balao h3,    
+.balao h4 {
+    white-space: nowrap;
+}
+
+.balao img {
+    max-width: 200px;
+    height: fit-content;
+    border-radius: 50%;
+    border: solid 3px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.balao img:hover {
+    scale: 1.1;
+}
+
+.balao a {
+    color: rgb(100, 255, 100);
+    text-shadow: rgb(0, 0, 0) 0 0 5px;
+    text-decoration: none;
+}
+
+.balao a:hover {
+    text-shadow: rgb(85, 85, 85) 0 0 5px;
+}
+
+.balao a:active {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0 0 5px;
+}
+
+.foto {
+    justify-content: center;
+}
+
+.foto img {
+    max-width: 200px;
+    height: fit-content;
+    border-radius: 0 35px;
+    border: solid 5px rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+    transition: 0.3s;
+}
+
+.foto img:hover {
+    scale: 1.1;
+}
+
+
+
+/*Formulario contato*/
+#contato {
+    background-color: rgb(0, 130, 0);
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 0 30px;
+    opacity: 1.5;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+    max-width: 380px;
+    width: 80%;
+}
+
+#contato h3 {
+    white-space: nowrap;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+form {
+    margin: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(100, 155, 100);
+    border-radius: 0 5px;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.556);
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid rgb(100, 155, 100);
+    border-radius: 0 15px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.556);
+    font-family: 'Merienda';
+    transition: 0.3s;
+}
+
+input[type=submit]:hover {
+    scale: 1.05;
+}
+
+input[type=submit]:active {
+    text-shadow: rgb(0, 0, 0) 0 0 25px;    
+    letter-spacing: 1px;
+    background-color: rgb(0, 130, 0);
+    color: rgb(255, 255, 255);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(100, 155, 100);
+    border-radius: 0 8px;
+    background-color: rgb(255, 255, 255);
+    resize: none;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.556);
+}
+
+
+/*fim de página*/
+#rodape {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    float: left;
+    bottom: 0px;
+}
+
+#rodape p {
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/*Resposividade*/
+@media (max-width: 820px) {
+    #conteudo {
+        padding-top: 0;
+        display: block;
+    }
+
+    div {
+        display: block;
+    }
+
+    #index {
+        display: block;
+    }
+
+    nav {
+        margin: 0;
+        border-radius: 0;
+        top: 0;
+    }
+    
+    #menu ul {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #menu ul li {
+        padding: 10px;
+    }
+    
+    #menu a {
+        font-size: 3vw;
+    }
+
+    #especifico {
+        width: auto;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+
+    .blocos {
+        flex-direction: column;
+    }
+
+    .blocos p {
+        text-align: center;
+    }
+
+    .foto img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .balao {
+        display: flex;
+        min-width: 50%;
+    }
+   
+    .balao h3,    
+    .balao h4 {
+        white-space: inherit;
+    }
+
+    #contato h3 {
+        font-size: 18px;
+    }
+    
+    .some {
+        display: none;
+    }
+}    
+
+@media (max-width: 500px) {
+    .balao {
+        display: flex;
+        min-width: 70%;
+    }
+   
+    h3 {
+        font-size: 20px;
+    }
+
+    #menu ul li {
+        padding: 5px;
+    }
+    
+    .balao img {
+        max-width: 150px;
+    }
+}    

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!--estilo-->
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <title>JJ Fale comigo</title>
+</head>
+<body>
+    <div id="tudo">
+
+        <!--Menu e conteudo-->
+        <div id="container">
+    
+            <!--Cabeçalho fixo-->
+            <header>
+                <h1><a href="index.html" title="Home">Juliana Jesus</a></h1>
+            </header>
+
+            <div id="conteudo">
+                <!--Menu principal-->
+                <nav id="menu">
+                    <ul> <!--criar id para subitens e fazer link âncora; os subitens devem aparecer ao passar o mouse por cima ou clicar, verificar possibilidades-->
+                        <li class="some">Menu</li>
+                        <li> <a href="quemsou.html" title="Se você quer saber mais sobre mim">Quem sou</a> </li> 
+                        <li> <a href="oquefaco.html" title="Para saber minhas experiências profissionais">O que faço</a> </li>
+                        <li> <a href="oqueestudei.html" title="Aqui você encontra minhas formações">O que estudei</a> </li>
+                        <li> <a href="contato.html" title="Espaço para você me mandar um oi">Fale comigo</a> </li>
+                    </ul> 
+                </nav>
+
+                <!--Conteúdo específico-->
+                <div id="especifico">
+                    <div class="blocos">
+                        <div class="balao">
+                            <h5>Linkedin</h5>
+                            <p><a href="https://www.linkedin.com/in/juliana-jesus-812a6235/" target="_blank">Juliana Jesus</a></p>
+                        </div>
+                        
+                        <div class="balao">
+                            <h5>E-mail</h5>
+                            <p><a href="mailto:jesus.juliana93@gmail.com" target="_blank">jesus.juliana93@gmail.com</a></p>
+                        </div>
+
+                        <div class="balao">
+                            <h5>GitHub</h5> 
+                            <p><a href="https://github.com/JulianaJesus93" target="_blank">JulianaJesus93</a></p>
+                        </div>
+                    </div>
+
+                    <div class="blocos">
+                        <div id="contato">
+                            <h3>Deixe sua mensagem</h3>
+                            <form method="post">                        
+                                <label for="name">Nome</label><br>
+                                <input type="text" id="name" placeholder="Como devo te chamar..."><br>
+                                <br>
+                                <label for="email">E-mail</label><br>
+                                <input type="email" id="email" placeholder="Para eu te dar um retorno..."><br>
+                                <br>
+                                <label for="message">Messagem</label><br>
+                                <textarea type="message" id="message" placeholder="Sobre qual assunto conversaremos..."></textarea>
+                                <br><br>
+                                <input type="submit" value="Enviar" class="enviar">
+                            </form>
+                        </div>
+                    </div>
+
+                </div> <!--Fim da #especifico-->
+
+                <div class="clear"></div>
+            </div> <!--Fim da #conteudo-->
+
+        </div> <!--Fim da #container-->
+
+        <!--Rodapé-->
+        <div id="rodape">
+            <p> Em desenvolvimento por <em>Juliana Jesus</em><br>
+                Setembro 2022</p>
+        </div>
+
+    </div> <!--Fim da #tudo-->
+</body>
+</html>
